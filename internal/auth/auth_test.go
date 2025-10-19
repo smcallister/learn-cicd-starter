@@ -14,7 +14,7 @@ func TestGetAPIKey(t *testing.T) {
 		wantError error
 	}
 
-	tests := []test {
+	tests := []test{
 		{
 			name:      "No Authorization Header",
 			headers:   map[string][]string{},
